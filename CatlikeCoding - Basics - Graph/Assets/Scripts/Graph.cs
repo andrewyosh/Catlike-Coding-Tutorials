@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class Graph : MonoBehaviour
 {
+    [SerializeField] private Transform pointPrefab;
 
-    [SerializeField]
-    Transform pointPrefab;
+    [SerializeField, Range(10, 100)] private int resolution = 10;
 
-    [SerializeField, Range(10, 100)]
-    int resolution = 10;
+    [SerializeField, Range(0, 1)] private int function;
 
-    [SerializeField, Range(0, 1)]
-    int function;
+    private Transform[] points;
 
-    Transform[] points;
-
-    void Awake()
+    private void Awake()
     {
         //This step is used because we are in a range of -1 to 1.
         float step = 2f / resolution;
@@ -31,19 +27,16 @@ public class Graph : MonoBehaviour
             point.localScale = scale;
             point.SetParent(transform, false);
         }
-
     }
 
-    void Update()
+    private void Update()
     {
         float time = Time.time;
-        for (int i = 0; i < points.Length; i++)
+        foreach (Transform point in points)
         {
-            Transform point = points[i];
             Vector3 position = point.localPosition;
             position.y = FunctionLibrary.Wave(position.x, time);
             point.localPosition = position;
         }
     }
-
 }

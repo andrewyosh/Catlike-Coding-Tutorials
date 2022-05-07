@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0db1dd3f-2ca1-4dbc-bc82-c59c69f55e36" name="Changes" comment="" />
+    <list default="true" id="0db1dd3f-2ca1-4dbc-bc82-c59c69f55e36" name="Changes" comment="Add unversioned files.">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FunctionLibrary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/coola/Documents/Catlike-Coding-Tutorials/CatlikeCoding - Basics - Graph/Assets/Scripts/FunctionLibrary.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/coola/Documents/Catlike-Coding-Tutorials/CatlikeCoding - Basics - Graph/Assets/Scripts/FunctionLibrary.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/coola/Documents/Catlike-Coding-Tutorials/CatlikeCoding - Basics - Graph/Assets/Scripts/Graph.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#"
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Add unversioned files.">
+      <created>1651923967553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651923967553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
@@ -34,5 +50,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Add unversioned files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unversioned files." />
   </component>
 </project>
